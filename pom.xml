@@ -6,7 +6,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.example</groupId>
-  <artifactId>vinay</artifactId>
+  <artifactId>java-maven</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
@@ -122,12 +122,12 @@
   </reporting>
 <distributionManagement>
   <repository>
-    <id>releases</id>
+    <id>vinay</id>
     <!-- CHANGE HERE by your team nexus server -->
     <url>http://192.168.33.10:9000/nexus/content/repositories/releases/</url>
   </repository>
   <snapshotRepository>
-    <id>snapshots</id>
+    <id>vinay</id>
     <!-- CHANGE HERE by your team nexus server -->
     <url>http://192.168.33.10:9000/nexus/content/repositories/snapshots/</url>
   </snapshotRepository>
